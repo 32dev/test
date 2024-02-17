@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Detection</title>
+</head>
+
+<body>
+
+    <script>
+        // JavaScript로 사용자의 장치를 감지
+        var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        if (isMobile) {
+            document.write("<p>This is a mobile device.</p>");
+        } else {
+            document.write("<p>This is a desktop device.</p>");
+        }
+    </script>
+
+</body>
+
+</html>
